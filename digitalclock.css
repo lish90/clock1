@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: white; 
+  background-image: url("water1.jpg");
+  background-repeat: no-repeat;
+}
+
+.main {
+  background:#ccc;
+  width: 400px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;  
+}
+
+.badge {
+width: 96px;
+background: #e66357;
+color: white;
+padding: 5px 10px;
+font-family: sans-sarif;
+font-weight: bold;
+position: absolute;
+top: -15px;
+left: 40%;
+}
+
+.clock {
+  background: lightblue;
+  text-align:centre;
+  font-size: 55px;
+  height: 100% ;
+  padding-top: 35px;
+  font-family: 'Black And White Picture', sans-serif;
+  border-radius: 4px;
+}
